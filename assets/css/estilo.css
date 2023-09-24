@@ -3,7 +3,7 @@
   }
   body {
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to right, #ecf7ff, rgb(214, 217, 250), rgb(242, 230, 247)) ;
+    background-image: linear-gradient(to right, #ecf7ff, rgb(214, 217, 250), rgb(242, 230, 247));
   }
   a {
     text-decoration: none;
@@ -96,12 +96,19 @@
   }
   .landing-page header .links li:last-child {
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 10px;
     color: #FFF;
     background-color: #905cb3;
   }
   .landing-page header .links li:not(:last-child):hover {
-    color: #905cb3;
+    color: #ffffff;
+    background-color: #905cb3;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .landing-page header .links li:last-child:hover {
+    color: #ffffff;
+    background-color: #868686;
   }
   .landing-page .content .container {
     display: flex;
@@ -167,11 +174,12 @@
     cursor: pointer;
     color: #000000;
     background-color: #868686;
+    transition: 0.3s;
   }
   .rodape {
     font-size: 11px;
     color: #636060;
-    opacity: 85%;
+    opacity: 55%;
     display: flex;
     justify-content: center;
   }
